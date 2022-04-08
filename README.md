@@ -5,9 +5,7 @@
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 [![security: bandit][bandit-image]][bandit-url]
-[[![Imports: isort][isort-image]][isort-url]
-[![security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)
-[![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/)
+[![Imports: isort][isort-image]][isort-url]
 
 This Blog app enables a blogger to add new blog posts or view published blog posts.
 
