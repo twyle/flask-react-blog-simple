@@ -1,27 +1,28 @@
-# Flask React App Template
-> This is a template for setting up a Web App built with flask and react and deployed on Heroku. 
+# Flask React Blog
+> This is a simple Blog built with React and Flask.
 
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 [![security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)
+[![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/)
 
-One to two paragraph statement about your product and what it does. test
+This Blog app enables a blogger to add new blog posts or view published blog posts.
 
 ![](header.png)
 
 ## Installation
 
-### Clone the [Flask-react-template repo](https://github.com/twyle/flask-react-template.git)
+### Clone the [Flask React Blog repo](https://github.com/twyle/flask-react-blog-simple.git)
 
 ```sh
-git clone https://github.com/twyle/flask-react-template.git
+git clone https://github.com/twyle/flask-react-blog-simple.git
 ```
 
 ### Navigate into the cloned repo
 
 ```sh
-cd flask-react-template
+cd flask-react-blog-simple
 ```
 
 ### Create a Python3 Virtual Environment.
@@ -120,7 +121,7 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 
 ## Contributing
 
-1. Fork it https://github.com/twyle/flask-api-template/fork
+1. Fork it https://github.com/twyle/flask-react-blog-simple/fork
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
