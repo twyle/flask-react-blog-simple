@@ -4,8 +4,9 @@
 [![security: bandit][bandit-image]][bandit-url]
 [![Imports: isort][isort-image]][isort-url]
 [![Flask React Blog Feature Development Build][feature-development-image]][feature-development-url]
-[![Flask React Blog Development Build][feature-development-image]][feature-development-url]
 [![Flask React Blog Development Build][development-image]][development-url]
+[![Flask React Blog Staging Build][staging-image]][staging-url]
+[![Flask React Blog Production Build][staging-image]][production-url]
 
 This Blog app enables a blogger to add new blog posts or view published blog posts.
 
@@ -141,3 +142,9 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 
 [development-image]: https://github.com/twyle/flask-react-blog-simple/actions/workflows/development-workflow.yml/badge.svg
 [development-url]: https://github.com/twyle/flask-react-blog-simple/actions/workflows/development-workflow.yml
+
+[staging-image]: https://github.com/twyle/flask-react-blog-simple/actions/workflows/staging-workflow.yml/badge.svg
+[staging-url]: https://github.com/twyle/flask-react-blog-simple/actions/workflows/staging-workflow.yml
+
+[production-image]: https://github.com/twyle/flask-react-blog-simple/actions/workflows/production-workflow.yml/badge.svg
+[production-url]: https://github.com/twyle/flask-react-blog-simple/actions/workflows/production-workflow.yml
