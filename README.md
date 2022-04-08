@@ -2,11 +2,9 @@
 > This is a simple Blog built with React and Flask.
 
 [![security: bandit][bandit-image]][bandit-url]
-
 [![Imports: isort][isort-image]][isort-url]
-
 [![Flask React Blog Feature Development Build][feature-development-image]][feature-development-url]
-[![Flask React Blog Feature Development Build](https://github.com/twyle/flask-react-blog-simple/actions/workflows/feature-development-workflow.yml/badge.svg?branch=feature%2Fworkflows)](https://github.com/twyle/flask-react-blog-simple/actions/workflows/feature-development-workflow.yml)
+
 
 This Blog app enables a blogger to add new blog posts or view published blog posts.
 
