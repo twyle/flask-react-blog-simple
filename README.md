@@ -1,11 +1,12 @@
 # Flask React Blog
 > This is a simple Blog built with React and Flask.
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
 [![security: bandit][bandit-image]][bandit-url]
+
 [![Imports: isort][isort-image]][isort-url]
+
+[![Flask React Blog Feature Development Build][feature-development-image]][feature-development-url]
+[![Flask React Blog Feature Development Build](https://github.com/twyle/flask-react-blog-simple/actions/workflows/feature-development-workflow.yml/badge.svg?branch=feature%2Fworkflows)](https://github.com/twyle/flask-react-blog-simple/actions/workflows/feature-development-workflow.yml)
 
 This Blog app enables a blogger to add new blog posts or view published blog posts.
 
@@ -138,3 +139,6 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 [bandit-url]: https://github.com/PyCQA/bandit
 [isort-image]: https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336
 [isort-url]: https://pycqa.github.io/isort/
+
+[feature-development-image]: https://img.shields.io/badge/security-bandit-yellow.svg
+[feature-development-url]: https://github.com/PyCQA/bandit
