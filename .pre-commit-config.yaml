@@ -5,9 +5,3 @@ repos:
     - commit-msg
   repo: https://github.com/commitizen-tools/commitizen
   rev: master
-
-#!/usr/bin/env python
-import sys
-from isort.hooks import git_hook
-
-sys.exit(git_hook(strict=True, modify=True, lazy=True, settings_file=""))
