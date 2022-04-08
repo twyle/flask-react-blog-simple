@@ -8,8 +8,9 @@
 [![Flask React Blog Development Build][development-image]][development-url]
 [![Flask React Blog Staging Build][staging-image]][staging-url]
 [![Flask React Blog Production Build][staging-image]][production-url]
-[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![Flask React Blog Production Build][production-image]][production-url]
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 
 This Blog app enables a blogger to add new blog posts or view published blog posts.
 
