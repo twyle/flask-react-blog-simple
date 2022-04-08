@@ -7,8 +7,12 @@
 [![Flask React Blog Feature Development Build][feature-development-image]][feature-development-url]
 [![Flask React Blog Development Build][development-image]][development-url]
 [![Flask React Blog Staging Build][staging-image]][staging-url]
+<<<<<<< HEAD
 [![Flask React Blog Production Build][staging-image]][production-url]
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+=======
+[![Flask React Blog Production Build][production-image]][production-url]
+>>>>>>> be37c6174f61b0355d36ac9dec078b4dbf56103e
 
 This Blog app enables a blogger to add new blog posts or view published blog posts.
 
