@@ -1,12 +1,16 @@
 # Flask React Blog
 > This is a simple Blog built with React and Flask.
 
+[![Website https://flask-react-blog-dev.herokuapp.com/](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://flask-react-blog-dev.herokuapp.com/)
 [![security: bandit][bandit-image]][bandit-url]
 [![Imports: isort][isort-image]][isort-url]
 [![Flask React Blog Feature Development Build][feature-development-image]][feature-development-url]
 [![Flask React Blog Development Build][development-image]][development-url]
 [![Flask React Blog Staging Build][staging-image]][staging-url]
+[![Flask React Blog Production Build][staging-image]][production-url]
 [![Flask React Blog Production Build][production-image]][production-url]
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 
 This Blog app enables a blogger to add new blog posts or view published blog posts.
 
