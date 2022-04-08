@@ -7,7 +7,7 @@ all: run
 
 sort: 
 	@echo "\n${BLUE} Running isort..."
-	@cd api-server && isort .
+	@cd api-server && isort 
 
 lint: 
 	@echo "\n${BLUE} Running the flake8 linter..."
@@ -30,11 +30,11 @@ coverage-report: coverage
 update-pip:
 	@pip install --upgrade pip
 
-install: update-pip requirements.txt
-	@pip install -r requirements.txt
+install: update-pip 
+	@pip install -r api-server/requirements.txt
 
-install-dev: requirements-dev.txt
-	@pip install -r requirements-dev.txt
+install-dev: 
+	@pip install -r api-server/requirements-dev.txt
 
 build:
 	@cd ${CLIENT} && npm run build

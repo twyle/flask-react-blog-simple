@@ -13,4 +13,5 @@ if os.environ['FLASK_ENV'] == 'production':
 elif os.environ['FLASK_ENV'] == 'development':
     app.config.from_object(DevelopmentConfig)
 
-from api import config, models, routes
+
+from api import config, models, routes  # isort:skip
