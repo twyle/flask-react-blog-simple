@@ -1,7 +1,7 @@
 # Flask React Blog
 > This is a simple Blog built with React and Flask.
 
-[![Website myfakewebsitethatshouldnotexist.at.least.i.hope](https://img.shields.io/website-up-down-green-red/http/myfakewebsitethatshouldnotexist.at.least.i.hope.svg)](http://myfakewebsitethatshouldnotexist.at.least.i.hope/)
+[![Website https://flask-react-blog-dev.herokuapp.com/](https://img.shields.io/website-up-down-green-red/http/myfakewebsitethatshouldnotexist.at.least.i.hope.svg)](http://https://flask-react-blog-dev.herokuapp.com/)
 [![security: bandit][bandit-image]][bandit-url]
 [![Imports: isort][isort-image]][isort-url]
 [![Flask React Blog Feature Development Build][feature-development-image]][feature-development-url]
