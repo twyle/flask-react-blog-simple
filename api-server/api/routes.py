@@ -7,7 +7,7 @@ from api import app
 
 
 @app.route('/api')
-def api_home() -> str:
+def api_home() -> int:
     return f"Hello from flask api! The environment is {os.environ['FLASK_ENV']}"
 
 
