@@ -6,7 +6,7 @@
 [![Flask React Blog Feature Development Build][feature-development-image]][feature-development-url]
 [![Flask React Blog Development Build][development-image]][development-url]
 [![Flask React Blog Staging Build][staging-image]][staging-url]
-[![Flask React Blog Production Build][staging-image]][production-url]
+[![Flask React Blog Production Build][production-image]][production-url]
 
 This Blog app enables a blogger to add new blog posts or view published blog posts.
 
