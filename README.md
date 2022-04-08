@@ -4,6 +4,7 @@
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
+[![security: bandit][bandit-image]][bandit-url]
 [![security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)
 [![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/)
 
@@ -134,3 +135,5 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 [travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
 [travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
 [wiki]: https://github.com/yourname/yourproject/wiki
+[bandit-image]: https://img.shields.io/badge/security-bandit-yellow.svg
+[bandit-url]: https://github.com/PyCQA/bandit

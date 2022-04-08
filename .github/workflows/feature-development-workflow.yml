@@ -92,7 +92,7 @@ jobs:
     - name: Sort Project dependencies
       run: |
         cd api-server
-        isort 
+        isort .
 
     - name: commit isort changes
       run: |
