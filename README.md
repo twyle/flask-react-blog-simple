@@ -9,8 +9,30 @@
 [![Flask React Blog Staging Build][staging-image]][staging-url]
 [![Flask React Blog Production Build][staging-image]][production-url]
 [![Flask React Blog Production Build][production-image]][production-url]
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=twyle_flask-react-blog-simple&metric=bugs)](https://sonarcloud.io/summary/new_code?id=twyle_flask-react-blog-simple)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=twyle_flask-react-blog-simple&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=twyle_flask-react-blog-simple)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=twyle_flask-react-blog-simple&metric=coverage)](https://sonarcloud.io/summary/new_code?id=twyle_flask-react-blog-simple)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=twyle_flask-react-blog-simple&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=twyle_flask-react-blog-simple)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=twyle_flask-react-blog-simple&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=twyle_flask-react-blog-simple)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=twyle_flask-react-blog-simple&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=twyle_flask-react-blog-simple)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=twyle_flask-react-blog-simple&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=twyle_flask-react-blog-simple)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=twyle_flask-react-blog-simple&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=twyle_flask-react-blog-simple)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=twyle_flask-react-blog-simple&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=twyle_flask-react-blog-simple)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=twyle_flask-react-blog-simple&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=twyle_flask-react-blog-simple)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
+![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Gunicorn](https://img.shields.io/badge/gunicorn-%298729.svg?style=for-the-badge&logo=gunicorn&logoColor=white)
+![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white)
 
 This Blog app enables a blogger to add new blog posts or view published blog posts.
 

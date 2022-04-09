@@ -100,11 +100,11 @@ jobs:
         git config --local user.name "GitHub Action"
         git add -A && git diff-index --cached --quiet HEAD || git commit -m 'isort'
 
-    - name: push isort changes
-      uses: ad-m/github-push-action@v0.5.0
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.ref }}
+    # - name: push isort changes
+    #   uses: ad-m/github-push-action@v0.5.0
+    #   with:
+    #     github_token: ${{ secrets.GITHUB_TOKEN }}
+    #     branch: ${{ github.ref }}
 
     - name: Run the linters
       run: |
@@ -116,3 +116,15 @@ jobs:
       run: |
         cd api-server
         if [ -d tests ] || [ -d test ]; then SECRET_KEY=${{secrets.SECRET_KEY}} FLASK_ENV=${{secrets.FLASK_ENV}} python -m pytest; fi
+
+    - name: Pytest Coverage
+      run: SECRET_KEY=${{secrets.SECRET_KEY}} FLASK_ENV=${{secrets.FLASK_ENV}} coverage run -m pytest
+
+    - name: Coverage Report
+      run: coverage xml
+
+    - name: SonarCloud Scan
+      uses: SonarSource/sonarcloud-github-action@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
