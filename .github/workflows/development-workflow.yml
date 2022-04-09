@@ -102,6 +102,18 @@ jobs:
       run: |
         cd api-server
         if [ -d tests ] || [ -d test ]; then SECRET_KEY=${{secrets.SECRET_KEY}} FLASK_ENV=${{secrets.FLASK_ENV}} python -m pytest; fi
+    
+    - name: Pytest Coverage
+      run: SECRET_KEY=${{secrets.SECRET_KEY}} FLASK_ENV=${{secrets.FLASK_ENV}} coverage run -m pytest
+
+    - name: Coverage Report
+      run: coverage xml
+
+    - name: SonarCloud Scan
+      uses: SonarSource/sonarcloud-github-action@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 
   DeployDev:
     name: Deploy to Dev 
