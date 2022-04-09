@@ -9,7 +9,6 @@
 [![Flask React Blog Staging Build][staging-image]][staging-url]
 [![Flask React Blog Production Build][staging-image]][production-url]
 [![Flask React Blog Production Build][production-image]][production-url]
-[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/summary/new_code?id=twyle_flask-react-blog-simple)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=twyle_flask-react-blog-simple&metric=bugs)](https://sonarcloud.io/summary/new_code?id=twyle_flask-react-blog-simple)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=twyle_flask-react-blog-simple&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=twyle_flask-react-blog-simple)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=twyle_flask-react-blog-simple&metric=coverage)](https://sonarcloud.io/summary/new_code?id=twyle_flask-react-blog-simple)
