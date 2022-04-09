@@ -20,7 +20,6 @@
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=twyle_flask-react-blog-simple&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=twyle_flask-react-blog-simple)
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=twyle_flask-react-blog-simple&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=twyle_flask-react-blog-simple)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=twyle_flask-react-blog-simple&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=twyle_flask-react-blog-simple)
-
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 ![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)
