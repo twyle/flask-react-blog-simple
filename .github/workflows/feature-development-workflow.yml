@@ -116,3 +116,9 @@ jobs:
       run: |
         cd api-server
         if [ -d tests ] || [ -d test ]; then SECRET_KEY=${{secrets.SECRET_KEY}} FLASK_ENV=${{secrets.FLASK_ENV}} python -m pytest; fi
+
+    - name: Pytest Coverage
+      run: SECRET_KEY=${{secrets.SECRET_KEY}} FLASK_ENV=${{secrets.FLASK_ENV}} coverage run -m pytest
+
+    - name: Coverage Report
+      run: coverage xml

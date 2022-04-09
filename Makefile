@@ -27,6 +27,9 @@ coverage-report: coverage
 	@echo "\n${BLUE} Generating the coverage report..."
 	@cd ${SERVER} && coverage report -m
 
+coverage-xml: coverage 
+	@cd ${SERVER} && coverage xml
+
 update-pip:
 	@pip install --upgrade pip
 
