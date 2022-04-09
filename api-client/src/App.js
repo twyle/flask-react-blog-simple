@@ -9,6 +9,7 @@ function App() {
   useEffect(() => {
     const fetchTime = async () => {
       //const resp = await axios.get('http://127.0.0.1:5000/api/time');
+      
       const resp = await axios.get('https://flask-react-blog-dev.herokuapp.com/api/time');
       console.log(resp.data.time)
       setCurrentTime(resp.data.time);
