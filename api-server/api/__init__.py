@@ -1,3 +1,6 @@
+"""
+Empty module docstring
+"""
 import os
 
 from flask import Flask
