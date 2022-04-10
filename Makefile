@@ -7,19 +7,19 @@ all: run
 
 sort: 
 	@echo "\n${BLUE} Running isort..."
-	@cd api-server && isort 
+	@cd api-server && isort .
 
-lint: 
+lint: sort
 	@echo "\n${BLUE} Running the flake8 linter..."
 	@cd ${SERVER} && flake8
 	@echo "\n${BLUE} Running the pylint linter..."
 	@cd ${SERVER} && pylint --rcfile=setup.cfg api/
 
-test: 
+test: lint
 	@echo "\n${BLUE} Running the tests..."
 	@cd ${SERVER} && SECRET_KEY=secret_key FLASK_ENV=development python -m  pytest 
 
-coverage:
+coverage: test
 	@echo "\n${BLUE} Running the coverage..."
 	@cd ${SERVER} && SECRET_KEY=secret_key FLASK_ENV=development coverage run -m pytest
 
